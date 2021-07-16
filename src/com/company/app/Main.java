@@ -2,6 +2,7 @@ package com.company.app;
 
 import com.company.designpatterns.builderpattern.Run;
 import com.company.designpatterns.factorypattern.FactoryPatternRun;
+import com.company.designpatterns.observerpattern.ObserverPatternExecuter;
 import com.company.designpatterns.strategypattern.StrategyPatternExecuter;
 
 public class Main {
@@ -15,6 +16,9 @@ public class Main {
 
         StrategyPatternExecuter spe = new StrategyPatternExecuter();
         spe.execute();
+
+        ObserverPatternExecuter ope = new ObserverPatternExecuter();
+        ope.execute();
 
     }
 }
