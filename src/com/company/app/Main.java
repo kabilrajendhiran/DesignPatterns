@@ -1,8 +1,8 @@
 package com.company.app;
 
 import com.company.designpatterns.builderpattern.Run;
-import com.company.designpatterns.decoratorpattern.DecoratorPatternExecuter;
-import com.company.designpatterns.observerpattern.ObserverPatternExecuter;
+import com.company.designpatterns.decoratorpattern.DecoratorPatternExecutor;
+import com.company.designpatterns.observerpattern.ObserverPatternExecutor;
 import com.company.designpatterns.strategypattern.StrategyPatternExecuter;
 
 public class Main {
@@ -14,10 +14,10 @@ public class Main {
         StrategyPatternExecuter spe = new StrategyPatternExecuter();
         spe.execute();
 
-        ObserverPatternExecuter ope = new ObserverPatternExecuter();
+        ObserverPatternExecutor ope = new ObserverPatternExecutor();
         ope.execute();
 
-        DecoratorPatternExecuter dpe = new DecoratorPatternExecuter();
+        DecoratorPatternExecutor dpe = new DecoratorPatternExecutor();
         dpe.execute();
 
     }

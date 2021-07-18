@@ -3,7 +3,7 @@ package com.company.designpatterns.decoratorpattern;
 import com.company.designpatterns.decoratorpattern.decorators.ExtraCheese;
 import com.company.designpatterns.decoratorpattern.decorators.Pepperoni;
 
-public class DecoratorPatternExecuter {
+public class DecoratorPatternExecutor {
     public void execute()
     {
         Pizza pizza = new Pizza();

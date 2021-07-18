@@ -1,6 +1,6 @@
 package com.company.designpatterns.observerpattern;
 
-public class ObserverPatternExecuter {
+public class ObserverPatternExecutor {
 
     public void execute()
     {

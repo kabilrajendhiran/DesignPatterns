@@ -1,5 +1,4 @@
 package com.company.designpatterns.factorypattern.simplefactory.creators;
-
 import com.company.designpatterns.factorypattern.simplefactory.products.*;
 
 public class SimplePizzaFactory {

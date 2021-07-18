@@ -3,7 +3,6 @@ package com.company.designpatterns.factorypattern.simplefactory;
 import com.company.designpatterns.factorypattern.simplefactory.creators.PizzaStore;
 import com.company.designpatterns.factorypattern.simplefactory.creators.PizzaTypes;
 import com.company.designpatterns.factorypattern.simplefactory.creators.SimplePizzaFactory;
-import com.company.designpatterns.factorypattern.simplefactory.products.Pizza;
 
 public class SimpleFactoryExecuter {
 
